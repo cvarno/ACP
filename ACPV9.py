@@ -24,7 +24,7 @@ import pathlib                          #Lets me check the time a file was last 
 import webbrowser                       #Doesn't actually open a web browser, but is used to open a notepad file with the account info.
 from sys import exit                    #Closes the program
 
-
+#
 #region Classes
 class Create():
     #Move groups from the Inactive to the Active sides.
