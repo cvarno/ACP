@@ -1,6 +1,6 @@
 import tkinter as tk
 from Home import Home
-from Page2 import Page2
+from Create import Create
 
 class tkinterApp(tk.Tk): #Driver Code
 
@@ -26,7 +26,7 @@ class tkinterApp(tk.Tk): #Driver Code
         
         # iterating through a tuple consisting
         # of the different page layouts
-        for F in (Home, Page2):
+        for F in (Home, Create):
   
             frame = F(container, self)
   
