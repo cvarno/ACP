@@ -1,7 +1,7 @@
 import tkinter as tk
 from config import *
 
-class Modify(tk.Frame): #Initial Page Frame
+class Options(tk.Frame): #Initial Page Frame
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         self['bg'] = BACKGROUND_COLOR
